@@ -4,21 +4,29 @@
     <meta charset="UTF-8">
     <!-- Set config to load the latest version of Microsoft Edge browser -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Adapt content scale according to user's device dimension -->
+
+    <!-- Viewport is the visible portion of a screen 
+        utilized in CSS as a measure unit to create 100% responsive webpages. 
+        This line sets config to adapt content scale according to user's device dimension  --> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header></header>
-    <main>
-        <h1>Bring your business to another level
-        <strong>with a high quality front-end!</strong>
-        </h1>
-        <p> Hello there! I'm Amanda Penido, Front-end developer specialized in React,
-            HTML and CSS. I help small businesses and designers to put their innovative ideas out of the paper.
-            Let's talk?</p>
-        <a href="https://instagram.com/amkimberly">Instagram</a>
-        <a href="https://github.com/amkimberly">Github</a>
+    <main class="presentation">
+        <section class="content-presentation">
+            <h1 class="title-content-presentation">Bring your business to another level
+            <strong class="highlight-title">with a high quality front-end!</strong>
+            </h1>
+            <p class="paragraph-content-presentation"> Hello there! I'm Amanda Penido, Front-end developer specialized in React,
+                HTML and CSS. I help small businesses and designers to put their innovative ideas out of the paper.
+                Let's talk?</p>
+            <div class="link-presentation">
+                <a class= "button-link-presentation" href="https://instagram.com/amkimberly">Instagram</a>
+                <a class= "button-link-presentation" href="https://github.com/amkimberly">Github</a>
+            </div>
+        </section>
         <img src="image.png" alt="Joana Santos">
     </main>
     <footer></footer>

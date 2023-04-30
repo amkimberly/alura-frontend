@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* It defines the percentual of the viewport height 
+    based on the browser default size. In this case, it's 100% */
+    height: 100vh;
+
+    /* Box-sizing is responsible for calculating the total length and width of
+    an element. The border-box sets the total dimension considering its parent container's dimensions*/
+    box-sizing: border-box;
+    background-color: #000000;
+    color: #F6F6F6;  
+}
+
+.highlight-title {
+    color: #22D4FD;
+}
+
+.presentation {
+    margin: 10% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-presentation{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.title-content-presentation {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+.paragraph-content-presentation {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link-presentation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-link-presentation {
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
