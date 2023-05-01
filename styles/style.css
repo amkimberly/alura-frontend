@@ -10,15 +10,30 @@ body {
     an element. The border-box sets the total dimension considering its parent container's dimensions*/
     box-sizing: border-box;
     background-color: #000000;
-    color: #F6F6F6;  
+    color: #F6F6F6;
 }
 
-.highlight-title {
+.header-presentation{
+    /* Up, Right, Down, Left*/
+    padding: 1% 2% 1% 64% ;
+    background-color: #272727;
+}
+
+.menu-header-presentation {
+    display: flex;
+    gap: 50px;
+}
+
+.link-menu-header-presentation{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
     color: #22D4FD;
+    text-decoration: none;
 }
 
 .presentation {
-    padding: 8%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -36,9 +51,14 @@ body {
     font-family: 'Krona One', sans-serif;
 }
 
+.highlight-title {
+    color: #22D4FD;
+}
+
 .paragraph-content-presentation {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
 .link-presentation {
