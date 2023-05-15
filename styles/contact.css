@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+*{
+    box-sizing: border-box;
+}
 
-
-.main-presentation :not(.contact-image-presentation){
+.main-presentation :not(.contact-image-presentation) {
     display: flex;
     flex-direction: column;
 }
@@ -27,4 +29,71 @@
 
 .contact-image-presentation{
     width: 100%;
+}
+
+.contact-form-wrapper{
+
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 10%;
+  padding: 1% 2%;
+  background-color: #272727;
+}
+
+.single-row{
+    width: 100%;
+}
+
+.single-column{
+    width: 30%;
+    float: left;
+}
+
+.single-column input {
+  width: 90%;
+  padding: 1% 2%;
+  line-height: 1.6;
+  margin: 1% 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form-label{
+  width: 45%;
+  margin-top: 1%;
+}
+
+.contact-form-input{
+  width: 40%;
+  padding: 1% 2%;
+  line-height: 1.6;
+  margin: 1% 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.contact-form-text{
+  padding: 1% 2%;
+  margin: 1% 0;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+
+}
+
+.contact-form-submit{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #f6f6f6;
+    padding: 1% 5%;
+    border-radius: 8px;
+    border: 2px solid #22d4fd;
+}
+
+.contact-form-submit:hover{
+    background-color: #272727;
 }

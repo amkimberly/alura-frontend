@@ -106,6 +106,7 @@ body {
 
 .image-presentation{
     width: 50%;
+    object-fit: cover;
 }
 
 .footer-presentation{
@@ -163,7 +164,8 @@ body {
     }
 
     .image-presentation{
-       padding: 10% 0 0 0;
+        width: 70%;
+       padding: 5% 0 0 0;
     }
 
     .footer-presentation{
