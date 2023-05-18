@@ -107,18 +107,19 @@ body {
 .image-presentation{
     width: 50%;
     object-fit: cover;
+    padding: 3%;
 }
 
 .footer-presentation{
     display: flex;
     background-color: var(--tertiary-color);
     justify-content: center;
-    padding: 23.64px;
+    padding: 1%;
 }
 
 .paragraph-footer-presentation {
     font-family: var(--secondary-font);
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--background-color);
 }
 
@@ -168,7 +169,7 @@ body {
     }
 
     .footer-presentation{
-        padding: 2% 10%;
+        padding: 0 10%;
     }
 
     .paragraph-footer-presentation {

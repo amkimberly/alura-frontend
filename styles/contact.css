@@ -4,17 +4,16 @@
     box-sizing: border-box;
 }
 
-.main-presentation :not(.contact-image-presentation) {
+.main-presentation {
     display: flex;
     flex-direction: column;
 }
 .contact-presentation{
     width: 100%;
     justify-content: center;
-    padding: 5%;
 }
 .contact-title{
-    padding: 0 0 2% 0;
+    padding: 1% 0 2% 0;
     font-family: 'Krona One', sans-serif;
     font-size: 2.25rem;
     text-align: center;
@@ -29,54 +28,65 @@
 
 .contact-image-presentation{
     width: 100%;
+
 }
 
 .contact-form-wrapper{
-
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;
-  margin: 0 10%;
-  padding: 1% 2%;
+  margin: 2% 9% 5%;
+  padding: 2% 2%;
   background-color: #272727;
+  border-radius: 8px;
 }
 
 .single-row{
-    width: 100%;
+  width: 100%;
+  clear: both;
 }
 
 .single-column{
-    width: 30%;
+    width: 50%;
     float: left;
 }
 
 .single-column input {
-  width: 90%;
-  padding: 1% 2%;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 95%;
+  padding: 2% 2%;
   line-height: 1.6;
-  margin: 1% 0;
-  border: 1px solid #ccc;
+  margin: 2% 0;
+  border: 1px solid #22d4fd;
+  background-color: #272727;
+  color: #f6f6f6;
   border-radius: 8px;
 }
 
-.contact-form-label{
-  width: 45%;
-  margin-top: 1%;
-}
-
-.contact-form-input{
-  width: 40%;
-  padding: 1% 2%;
+.select-box{
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 95%;
+  padding: 2% 2%;
   line-height: 1.6;
-  margin: 1% 0;
-  border: 2px solid #ccc;
+  margin: 2% 0;
+  border: 1px solid #22d4fd;
+  background-color: #272727;
+  color: #f6f6f6;
   border-radius: 8px;
 }
 
 .contact-form-text{
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
   padding: 1% 2%;
   margin: 1% 0;
-  border: 2px solid #ccc;
+  border: 2px solid #22d4fd;
+  color: #f6f6f6;
   border-radius: 8px;
+  background-color: #272727;
+
 
 }
 
@@ -87,7 +97,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-color: #000000;
+    background-color: #272727;
     color: #f6f6f6;
     padding: 1% 5%;
     border-radius: 8px;
@@ -95,5 +105,5 @@
 }
 
 .contact-form-submit:hover{
-    background-color: #272727;
+    background-color: #22d4fd;
 }
