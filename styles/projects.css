@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.projects-presentation{
+    display: flex;
+    flex-direction: column;
+    margin:2%;
+}
+
+.project-presentation-title{
+    font-family: 'Krona One', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2%;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.project-presentation-paragraph{
+    width: max-content;
+    font-size: 1.4rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #009C17 ;
+}
+
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid #ffff; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation:
+      typing 3s steps(40, end),
+      blink-caret .75s step-end 8;
+  }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffff; }
+}
+
+.column-preview{
+    border: 1px solid #ffff;
+}
