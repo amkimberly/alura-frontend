@@ -8,7 +8,7 @@
 }
 
 .project-presentation-title{
-    font-family: 'Krona One', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 2.7rem;
     font-weight: 600;
     text-align: center;
@@ -25,7 +25,8 @@
     width: max-content;
     font-size: 1.4rem;
     font-family: 'Roboto Mono', monospace;
-    color: #009C17 ;
+    color: #22D4FD;
+    ;
 }
 
 .typewriter{
@@ -48,6 +49,21 @@
     50% { border-color: #ffff; }
 }
 
-.column-preview{
-    border: 1px solid #ffff;
+.equal-height{
+    height: 10rem;
+    object-fit: cover;
+}
+
+.btn-customized{
+    background-color: #000000;
+    border: 2px solid #343a40;
+    border-radius: 8px;
+    color:#ffff
+}
+
+.btn-customized:hover{
+
+    border: 2px solid #4398e2;
+
+
 }
