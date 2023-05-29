@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.projects-presentation{
+    display: flex;
+    flex-direction: column;
+    margin:2%;
+}
+
+.project-presentation-title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 2%;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.project-presentation-paragraph{
+    width: max-content;
+    font-size: 1.4rem;
+    font-family: 'Roboto Mono', monospace;
+    color: #22D4FD;
+}
+
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .1em solid #ffff; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    animation:
+      typing 3s steps(40, end),
+      blink-caret .75s step-end 8;
+  }
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffff; }
+}
+
+.equal-height{
+    height: 10rem;
+    object-fit: cover;
+}
+
+.btn-customized{
+    background-color: #000000;
+    border: 2px solid #343a40;
+    border-radius: 8px;
+    color:#ffff
+}
+
+.btn-customized:hover{
+    border: 2px solid #4398e2;
+}
+
+@media (min-width:768px) and (max-width: 991px) {
+    .project-presentation-paragraph{
+        font-size: 1.2rem;
+    }
+
+    .equal-height{
+        height: 20rem;
+        object-fit: cover;
+    }
+
+    .typewriter{
+        border-right: 0px;
+        font-family: monospace;
+        color:#0000;
+        background:
+          linear-gradient(-90deg,#00DFFC 2px,#0000 0) 10px 0,
+          linear-gradient(#00DFFC 0 0) 0 0;
+        background-size:calc(var(--n)*1ch) 200%;
+        -webkit-background-clip:padding-box,text;
+        background-clip:padding-box,text;
+        background-repeat:no-repeat;
+        animation: 
+          blink-caret .7s infinite steps(1),
+          typing calc(var(--n)*.1s) steps(var(--n)) forwards;
+      }
+      @keyframes typing{
+        from {background-size:0 200%}
+      }
+      @keyframes blink-caret{
+        50% {background-position:0 -100%,0 0}
+      }
+
+    .arm:nth-child(2n+1){
+        justify-content: start;
+    }
+}
