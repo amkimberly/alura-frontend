@@ -9,7 +9,7 @@
     --secondary-font:'Montserrat', sans-serif;
 }
 
-* {
+*{
     margin: 0;
     padding: 0;
 }
@@ -107,7 +107,7 @@ body {
 .image-presentation{
     width: 50%;
     object-fit: cover;
-    padding: 3%;
+    padding: 1%;
 }
 
 .footer-presentation{
@@ -160,12 +160,14 @@ body {
     }
 
     .button-link-presentation {
+        align-items: center;
         padding: 2% 0;
         font-size: 1rem;
     }
 
     .image-presentation{
         width: 70%;
+        padding: 2%;
     }
 
     .footer-presentation{
