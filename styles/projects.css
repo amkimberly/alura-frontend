@@ -59,7 +59,12 @@
     background-color: #000000;
     border: 2px solid #343a40;
     border-radius: 8px;
-    color:#ffff
+    color:#ffff;
+}
+
+.btn:focus{
+    outline: none;
+    border: 2px solid #4398e2;
 }
 
 .btn-customized:hover{
