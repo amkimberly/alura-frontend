@@ -22,10 +22,12 @@
 }
 
 .project-presentation-paragraph{
-    width: max-content;
-    font-size: 1.4rem;
+    width: auto;
+    font-size: 1.2rem;
     font-family: 'Roboto Mono', monospace;
     color: #22D4FD;
+    justify-content: center;
+
 }
 
 .typewriter{
@@ -74,29 +76,19 @@
         object-fit: cover;
     }
 
-    .typewriter{
-        border-right: 0px;
-        font-family: monospace;
-        color:#0000;
-        background:
-          linear-gradient(-90deg,#00DFFC 2px,#0000 0) 10px 0,
-          linear-gradient(#00DFFC 0 0) 0 0;
-        background-size:calc(var(--n)*1ch) 200%;
-        -webkit-background-clip:padding-box,text;
-        background-clip:padding-box,text;
-        background-repeat:no-repeat;
-        animation: 
-          blink-caret .7s infinite steps(1),
-          typing calc(var(--n)*.1s) steps(var(--n)) forwards;
-      }
-      @keyframes typing{
-        from {background-size:0 200%}
-      }
-      @keyframes blink-caret{
-        50% {background-position:0 -100%,0 0}
-      }
-
-    .arm:nth-child(2n+1){
+    .child-justify-start:nth-child(2n+1){
         justify-content: start;
     }
+}
+
+@media (max-width:767px){
+    .typewriter{
+        text-align: center;
+        overflow: visible;
+        border-right: 0px;
+        white-space:normal;
+        margin: 0 auto;
+        animation:
+          typing 0s steps(1);
+      }
 }
