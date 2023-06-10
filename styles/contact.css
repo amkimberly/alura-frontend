@@ -86,8 +86,6 @@
   color: #f6f6f6;
   border-radius: 8px;
   background-color: #272727;
-
-
 }
 
 .contact-form-submit{
@@ -107,6 +105,25 @@
 
 .contact-form-submit:hover{
     background-color: #22d4fd;
+}
+
+.contact-form-submit:focus{
+  background-color: #22d4fd;
+}
+
+input:focus{
+  outline: none;
+  border: 3px solid #4398e2;
+}
+
+.select-box:focus {
+  outline: none;
+  border: 3px solid #4398e2;
+}
+
+.contact-form-text:focus {
+  outline: none;
+  border: 3px solid #4398e2;
 }
 
 @media (max-width: 750px) {

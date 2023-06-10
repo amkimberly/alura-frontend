@@ -123,6 +123,22 @@ body {
     color: var(--background-color);
 }
 
+.btn:focus{
+    outline: none;
+    border: 4px solid #4398e2;
+}
+
+.button-link-presentation:focus{
+    outline: none;
+    border: 4px solid #4398e2;
+}
+
+.link-menu-header-presentation:focus{
+    outline: none;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 @media (max-width: 1200px) {
     .header-presentation{
         padding: 2% 2%;
