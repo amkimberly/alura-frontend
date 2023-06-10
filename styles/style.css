@@ -42,6 +42,11 @@ body {
     text-decoration: none;
 }
 
+.active-link{
+    color: var(--secondary-color);
+    font-weight: 500;
+}
+
 .presentation {
     padding: 5% 10%;
     display: flex;
