@@ -4,8 +4,7 @@
 </p></br>
 
 ![myPortfolio](https://github.com/amkimberly/alura-frontend/assets/70042529/6832c1b8-4811-48d5-b486-8861e7b0c022)
-
-
+> Did you get curious? [Check it out!](https://amanda-marques.vercel.app/)
 
 
 
