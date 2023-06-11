@@ -37,7 +37,7 @@ body {
 .link-menu-header-presentation{
     font-family: var(--secondary-font);
     font-size: 1.5rem;
-    font-weight: 600px;
+    font-weight: 400;
     color: var(--tertiary-color);
     text-decoration: none;
 }
